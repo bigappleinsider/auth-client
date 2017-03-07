@@ -1,4 +1,6 @@
 # Client Auth
+[https://the-auth-client.herokuapp.com](https://the-auth-client.herokuapp.com)
+
 ```
 npm i -S redux-form react-thunk axios
 On the server:
@@ -28,5 +30,5 @@ export default connect(mapStateToProps)(App);
 - Whenever redux store changes, provider would go and update
 all child components
 - Provider broadcasts new state
-- connect is a higher order component that is specifically made 
+- connect is a higher order component that is specifically made
 to make communication with a provider at the top of the application
