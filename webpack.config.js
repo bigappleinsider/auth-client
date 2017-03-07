@@ -22,5 +22,13 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: './'
-  }
+  },
+  externals: [
+    {
+      'Config': JSON.stringify(process.env.ENV === 'production' ? {
+        serverUrl: process.env.serverUrl
+      } : {
+        serverUrl: "http://localhost:3041"
+      })
+    }]
 };
