@@ -1,6 +1,12 @@
 # Client Auth
 [https://the-auth-client.herokuapp.com](https://the-auth-client.herokuapp.com)
+[https://the-auth-server.herokuapp.com](https://the-auth-server.herokuapp.com)
 
+## Environment variables
+```
+ENV: production
+serverUrl: https://the-auth-server.herokuapp.com
+```
 ```
 npm i -S redux-form react-thunk axios
 On the server:
