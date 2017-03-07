@@ -4,12 +4,12 @@ import { browserHistory } from 'react-router';
 
 import { AUTH_USER, AUTH_ERROR, UNAUTH_USER, FETCH_MESSAGE } from './types';
 
-const ROOT_URL = 'http://localhost:3091'
+import Config from 'Config';
 
 
 export function fetchMessage() {
   return function(dispatch) {
-    axios.get(ROOT_URL, {
+    axios.get(Config.serverUrl, {
       headers: { authorization: localStorage.getItem('token')}
     })
       .then(response => {

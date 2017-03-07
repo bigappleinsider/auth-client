@@ -14,9 +14,6 @@ import Signup from './components/auth/signup';
 import Feature from './components/feature';
 import Welcome from './components/welcome';
 import RequireAuth from './components/auth/require_auth';
-//var Config = require('Config');
-import * as Config from 'Config';
-console.log("config:", Config.serverUrl);
 
 const createStoreWithMiddleware = applyMiddleware(reduxThunk)(createStore);
 

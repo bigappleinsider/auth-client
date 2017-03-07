@@ -45,7 +45,9 @@ module.exports = {
   },
   externals: [
     {
-      'Config': JSON.stringify({
+      'Config': JSON.stringify(process.env.ENV === 'production' ? {
+        serverUrl: process.env.serverUrl
+      } : {
         serverUrl: "https://the-auth-server.herokuapp.com"
       })
     }]
