@@ -1,7 +1,7 @@
 {
-  "name": "redux-simple-starter",
+  "name": "auth-client",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Client Auth with React and Redux",
   "main": "app.js",
   "repository": "git@github.com:bigappleinsider/auth-client.git",
   "scripts": {
