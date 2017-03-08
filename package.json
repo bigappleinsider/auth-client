@@ -2,8 +2,8 @@
   "name": "redux-simple-starter",
   "version": "1.0.0",
   "description": "Simple starter package for Redux with React and Babel support",
-  "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "main": "app.js",
+  "repository": "git@github.com:bigappleinsider/auth-client.git",
   "scripts": {
     "heroku-postbuild": "cross-env ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
     "build": "cross-env ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
